@@ -1,0 +1,14 @@
+[package]
+name = "metrics"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+uniffi.workspace = true
+sysinfo = "0.37.2"
+
+[build-dependencies]
+uniffi = { workspace = true, features = ["build"] }
+
+[lib]
+crate-type = ["cdylib", "staticlib", "lib"]

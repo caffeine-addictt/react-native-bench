@@ -1,0 +1,6 @@
+rust:
+  directory: ./rust
+  manifestPath: metrics/Cargo.toml
+
+android:
+  useSharedLibrary: true

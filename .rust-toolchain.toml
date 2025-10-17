@@ -1,0 +1,17 @@
+[toolchain]
+channel = "1.90.0"
+components = ["rustfmt", "clippy"]
+targets = [
+  # dev
+  "x86_64-unknown-linux-gnu",
+  "x86_64-pc-windows-gnu",
+
+  # kizutan
+  "aarch64-linux-android",
+  "armv7-linux-androideabi",
+  "x86_64-linux-android",
+  "i686-linux-android",
+  "x86_64-apple-ios",
+  "aarch64-apple-ios",
+  "aarch64-apple-ios-sim",
+]

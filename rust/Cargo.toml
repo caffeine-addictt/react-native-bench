@@ -1,0 +1,7 @@
+[workspace]
+
+members = ["metrics", "kizubin", "uniffi-bindgen"]
+resolver = "2"
+
+[workspace.dependencies]
+uniffi = "0.29.4"
